@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'quicksand';
+    src: url('polices/quicksand/Quicksand-Regular.otf');
+}
+
+@font-face {
+    font-family: 'quicksand-italic';
+    src: url('polices/quicksand/Quicksand-Italic.otf');
+}
+
+@font-face {
+    font-family: 'digital7-italic';
+    src: url('polices/digital-7/digital-7\ \(italic\).ttf');
+}
+
+body {
+    background-color: black;
+    color: palegreen;
+    text-align: center;
+}
+
+input {
+    background-color: black;
+    color: palegreen;
+}
+
+button {
+    background-color: black;
+    color: palegreen;
+    border: 1px solid palegreen;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+h1, h2 {
+    font-family: quicksand;
+}
+
+h3 {
+    font-family: quicksand-italic;
+}
+
+p {
+    font-family: digital7-italic;
+}
+#countdown {
+    font-family: digital7-italic;
+    font-size: 25px;
+}
